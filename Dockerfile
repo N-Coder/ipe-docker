@@ -1,4 +1,4 @@
-FROM sumankhanal/texlive-2020
+FROM sumankhanal/texlive-2020:full
 
 RUN wget -O ipe.deb \
     https://download.opensuse.org/repositories/home:/otfried13/Debian_Unstable/amd64/ipe_7.2.17-1_amd64.deb && \
