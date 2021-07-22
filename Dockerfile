@@ -2,10 +2,10 @@ FROM debian:10
 
 ENV LANG=C.UTF-8 \
     LC_ALL=C.UTF-8 \
-    PANDOC=2.11.1.1 \
-    IPE=7.2.21
+    PANDOC=2.14.1 \
+    IPE=7.2.24
     
-ENV PATH=/usr/local/texlive/2020/bin/x86_64-linux:$PATH
+ENV PATH=/usr/local/texlive/2021/bin/x86_64-linux:$PATH
 ARG scheme=scheme-full
 
 RUN apt-get update \
